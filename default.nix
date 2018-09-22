@@ -1,6 +1,7 @@
 { pkgs ? import <nixpkgs> {}
 , nodejs ? pkgs.nodejs-8_x
 , yarn ? pkgs.yarn
+, pandoc ? pkgs.pandoc
 }:
 
 let
